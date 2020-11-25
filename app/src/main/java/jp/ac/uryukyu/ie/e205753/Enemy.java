@@ -30,24 +30,28 @@ public class Enemy {
 
     /**
      * Enemyのnameを得るためのメソッド。
+     * @return nameの値
      */
     public String getName(){
         return this.name;
     }
     /**
      * Enemyのdeadの状態を得るメソッド。
+     * @return deadの値
      */
     public boolean getDead(){
         return dead;
     }
     /**
      * Enemyのattack値を得るメソッド。
+     * @return attackの値
      */
     public int getAttack(){
         return attack;
     }
     /**
      * Enemyのhitpointを得るメソッド。
+     * @return hitpointの値
      */
     public int getHitPoint(){
         return hitPoint;

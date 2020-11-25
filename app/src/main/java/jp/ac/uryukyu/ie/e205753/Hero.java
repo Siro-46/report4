@@ -30,24 +30,28 @@ public class Hero {
 
     /**
      * Heroのnameを得るためのメソッド。
+     * @return nameの値
      */
     public String getName(){
         return this.name;
     }
     /**
      * Heroのdeadの状態を得るメソッド。
+     * @return deadの値
      */
     public boolean getDead(){
         return dead;
     }
     /**
      * Heroのattack値を得るメソッド。
+     * @return attackの値
      */
     public int getAttack(){
         return attack;
     }
     /**
      * Heroのhitpointを得るメソッド。
+     * @return hitpointの値
      */
     public int getHitPoint(){
         return hitPoint;
